@@ -23,7 +23,7 @@ groups' centers.
 }
 \details{
 This function is a bit different from the silhouette function in the cluster
-package, [Maechler et al., 2005].
+package, Maechler et al., 2005.
 }
 \examples{
 
@@ -35,5 +35,4 @@ kms <- kmeans(sportsranks, centers = 5, nstart = 10)
 
 # Silhouettes
 sil <- silhouette.km(sportsranks, kms$centers)
-
 }
